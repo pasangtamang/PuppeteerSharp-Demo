@@ -1,4 +1,10 @@
+using PuppeteerSharp;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//// Pre-download Chromium at startup
+//var fetcher = new BrowserFetcher();
+//await fetcher.DownloadAsync();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
