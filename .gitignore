@@ -1,0 +1,44 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+## Build results
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+## ASP.NET Core
+wwwroot/uploads/
+wwwroot/temp/
+
+## Puppeteer Sharp
+# Exclude downloaded Chromium
+PuppeteerSharp.BrowserFetcher/
+# Exclude generated PDFs if you store them temporarily
+wwwroot/pdfs/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## OS generated
+.DS_Store
+Thumbs.db
+
+## VS Code
+.vscode/

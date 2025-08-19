@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h2>Generate PDF using Puppeteer Sharp</h2>
+    <div style="display: flex;justify-content: space-between;align-items: center;width: 33%;margin-left: auto;margin-right: auto;margin-top: 50px;">
+        <form asp-controller="Pdf" asp-action="GenerateInvoicePdf" method="post" style="margin: 0;">
+            <button type="submit" class="btn btn-primary">Download Invoice PDF</button>
+        </form>
+        <form asp-controller="Pdf" asp-action="GenerateHtmlPdf" method="post" style="margin: 0;">
+            <button type="submit" class="btn btn-primary">Download Web PDF</button>
+        </form>
+    </div>
+</div>
